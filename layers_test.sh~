@@ -1,0 +1,4 @@
+#!/bin/sh
+
+python convnet.py --data-path=/home/student/ozeki/cuda-convnet/data/dataset --save-path=/home/student/ozeki/cuda-convnet --test-range=6 --train-range=1-5 --layer-def=./example-layers/layers-19pct.cfg --layer-params=./example-layers/layer-params-19pct.cfg --data-provider=cifar --test-freq=13 --epochs=100
+
